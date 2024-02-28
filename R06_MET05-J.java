@@ -30,3 +30,20 @@ public class Overridable {
     // Prints "This is subclass! The color is :null"
   }
 }
+
+//Corrected Code
+//Rule 06: User example
+
+
+//MET05-J
+class SuperClass {
+  public SuperClass() {
+    doLogic();
+  }
+ 
+  public final void doLogic() {
+    System.out.println("This is superclass!");
+  }
+}
+
+
