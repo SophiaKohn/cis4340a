@@ -1,0 +1,10 @@
+//Rule 04: User example
+//STR02-J
+
+//Defective Code:
+
+public class Example {
+  public static void main(String[] args) {
+    System.out.println("Title".toUpperCase());
+  }
+}
